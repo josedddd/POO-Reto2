@@ -56,22 +56,17 @@ direction TB
     }
     class Sensor_ultrasonido {
 	    Tipo_de_sensor : Ultrasonido
-	    Tipo_de_lectura : Analogica
-	    Ubicacion : Frontal_Derecho_o_Izquierdo
-	    +Medir_distancia_opontente()
+	    +Medir_distancia_()
     }
     class Sensor_piso {
 	    Tipo_de_sensor : Sensor_inflarojo
-	    Tipo_de_lectura : Digital
-	    Ubicacion : Inferior
+	
 	   + Medir_negro()
 	   + Medir_blanco()
     }
     class Sensor_sharp {
 	    Tipo_de_sensor : Sensor_inflarojo
-	    Tipo_de_lectura : Analogica
-	    Ubicacion:Lateral_O_Frontal
-	    +Medir_distancia_opontente()
+	    +Medir_distancia_()
     }
 
     Sensores <|-- Sensor_ultrasonido
@@ -87,3 +82,4 @@ direction TB
     Minisumo *-- "1 o 2" Puente_H
     Minisumo *-- "1 o 2" Micro_controlador
     Minisumo *-- "1 o mas" Sensores
+
