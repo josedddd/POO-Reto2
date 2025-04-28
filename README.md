@@ -27,9 +27,9 @@ direction TB
 	   +Girar_izquierda()
     }
     class Puente_H {
-	    str : tipo_de_puente_H
-	    float : voltage_de_entrada
-	    float : _voltaje_de_salida
+	    str : Tipo_de_puente_H
+	    float : Voltage_de_entrada
+	    float : Voltaje_de_salida
 	    +Encender_motor()
 	    +Apagar_motor()
 	    +Cambiar_velocidad_motor()
