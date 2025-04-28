@@ -9,15 +9,18 @@ direction TB
 	    float: Tamaño
 	    float: Peso
 	    str: Nombre
-	    -Detectar_Minisumo() 
-	    -Atacar() 
+	    +Moverse_atras()
+	    +Moverse_adelante()
+	    +Girar_en_su_eje()
+	    +Girar_derecha()
+	   +Girar_izquierda() 
     }
     class Minisumo {
 	    float : Tamaño
 	    float : Peso
 	    str : Nombre
 	    Parar()
-	    Moverse_atras()
+	    +Moverse_atras()
 	    +Moverse_adelante()
 	    +Girar_en_su_eje()
 	    +Girar_derecha()
