@@ -1,3 +1,5 @@
+```mermaid
+
 ---
 title: Robot minisumo
 ---
