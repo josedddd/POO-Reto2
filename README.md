@@ -58,17 +58,14 @@ direction TB
 	    float: Peso
     }
     class Sensor_ultrasonido {
-	    Tipo_de_sensor : Ultrasonido
 	    +Medir_distancia_()
     }
     class Sensor_piso {
-	    Tipo_de_sensor : Sensor_inflarojo
 	
 	   + Medir_negro()
 	   + Medir_blanco()
     }
     class Sensor_sharp {
-	    Tipo_de_sensor : Sensor_inflarojo
 	    +Medir_distancia_()
     }
 
