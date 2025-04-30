@@ -42,7 +42,6 @@ direction TB
 	    +Girar_atras()
     }
     class Sensores {
-	    str : Tipo_de_sensor
 	    str : Tipo_de_lectura
 	    str : Ubicacion
 	    +Medir_señal()
@@ -58,20 +57,19 @@ direction TB
 	    float: Peso
     }
     class Sensor_ultrasonido {
-	    +Medir_distancia_()
+	str: Sensor_ultrasonido
     }
     class Sensor_piso {
-	
-	   + Medir_negro()
-	   + Medir_blanco()
+	str: Sensor_inflarojo
+	  
     }
-    class Sensor_sharp {
-	    +Medir_distancia_()
+    class Sensor_inflarojo {
+	str: Sensor_inflarojo
     }
 
     Sensores <|-- Sensor_ultrasonido
     Sensores <|-- Sensor_piso
-    Sensores <|-- Sensor_sharp
+    Sensores <|-- Sensor_inflarojo
     Micro_controlador --> Puente_H : controla
     Puente_H --> Motores : controla
     Micro_controlador --> Sensores : controla
