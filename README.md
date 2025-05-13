@@ -9,6 +9,7 @@ direction TB
 	    float: Tamaño
 	    float: Peso
 	    str: Nombre
+             + Parar()
 	    +Moverse_atras()
 	    +Moverse_adelante()
 	    +Girar_en_su_eje()
@@ -33,7 +34,7 @@ direction TB
 	    +Encender_motor()
 	    +Apagar_motor()
 	    +Cambiar_velocidad_motor()
-        +Cambiar_giro_motor()
+            +Cambiar_giro_motor()
     }
     class Motores {
 	    float : Relacion_del_motor
