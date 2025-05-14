@@ -20,7 +20,7 @@ direction TB
 	    float : Tamaño
 	    float : Peso
 	    str : Nombre
-	    Parar()
+	    +Parar()
 	    +Moverse_atras()
 	    +Moverse_adelante()
 	    +Girar_en_su_eje()
